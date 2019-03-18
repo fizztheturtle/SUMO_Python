@@ -1,0 +1,23 @@
+<additionals>
+
+    <vType id="evehicle" vClass="evehicle" accel="2.6" decel="4.5" maxSpeed="160.0" length="4.5" minGap="2.0"
+        emissionClass="Energy/unknown"><!--based off of tesla model s 60D-->
+        <param key="has.battery.device" value="true"/>
+        <param key="actualBatteryCapacity" value="10000.0"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="arrivalLane" value="99"/>
+        <param key="arrivalSpeed" value="0.9"/>
+        <param key="maximumBatteryCapacity" value="11000"/>
+        <param key="maximumPower" value="100"/>
+        <param key="vehicleMass" value="2090"/>
+        <param key="frontSurfaceArea" value="6.2"/>
+        <param key="airDragCoefficient" value="0.24"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="stoppingThreshold" value="1"/>
+    </vType>
+    <chargingStation id="chargingStation_csLane_0_0_0" lane="csLane_0_0" startPos="00.90" endPos="115.90" friendlyPos="0" power="100000.00" efficiency="0.95" chargeInTransit="1" chargeDelay="0.00"/>
+    <chargingStation id="chargingStation_csLane_2_0_1" lane="csLane_2_0" startPos="00.90" endPos="115.90" friendlyPos="0" power="100000.00" efficiency="0.95" chargeInTransit="1" chargeDelay="0.00"/>
+    <chargingStation id="chargingStation_csLane_4_0_2" lane="csLane_4_0" startPos="00.90" endPos="115.90" friendlyPos="0" power="100000.00" efficiency="0.95" chargeInTransit="1" chargeDelay="0.00"/>
+    <chargingStation id="chargingStation_csLane_6_0_3" lane="csLane_6_0" startPos="00.90" endPos="115.90" friendlyPos="0" power="100000.00" efficiency="0.95" chargeInTransit="1" chargeDelay="0.00"/>
+
+</additionals>

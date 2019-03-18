@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/06/18 00:29:46 by SUMO duarouter Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="ElectricvehicleNetworkTesting.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="randomRoutes"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="100.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vehicle id="0" type="evehicle" depart="0.00">
+        <route edges="4_LaneR_2 3_LaneMid_Up_3 2_LaneMid_Up_3 2_LaneL_2 2_LaneL_1 2_LaneL_0 2_LaneMid_Dn_0"/>
+    </vehicle>
+    <vehicle id="1" type="evehicle" depart="1.00">
+        <route edges="2_LaneMid_Up_1 1_LaneMid_Up_1 1_LaneL_0 0_LaneMid_Up_0"/>
+    </vehicle>
+    <vehicle id="2" type="evehicle" depart="2.00">
+        <route edges="4_LaneMid_Dn_3 5_LaneL_2 4_LaneMid_Up_2 3_LaneMid_Up_2 2_LaneMid_Up_2 2_LaneL_1 2_LaneL_0 1_LaneMid_Up_0"/>
+    </vehicle>
+    <vehicle id="3" type="evehicle" depart="3.00">
+        <route edges="3_LaneMid_Dn_0 4_LaneR_0 4_LaneR_1 4_LaneMid_Dn_2 5_LaneR_2 4_LaneMid_Up_3"/>
+    </vehicle>
+    <vehicle id="4" type="evehicle" depart="4.00">
+        <route edges="2_LaneMid_Up_2 1_LaneMid_Up_2 1_LaneL_1"/>
+    </vehicle>
+    <vehicle id="5" type="evehicle" depart="5.00">
+        <route edges="2_LaneL_2 2_LaneL_1 2_LaneL_0 1_LaneMid_Up_0"/>
+    </vehicle>
+    <vehicle id="6" type="evehicle" depart="6.00">
+        <route edges="0_LaneR_4 0_LaneMid_Dn_5 1_LaneL_4 1_LaneL_3 1_LaneMid_Dn_3 2_LaneMid_Dn_3 3_LaneMid_Dn_3 4_LaneR_3"/>
+    </vehicle>
+    <vehicle id="7" type="evehicle" depart="7.00">
+        <route edges="1_LaneL_3 1_LaneMid_Dn_3 2_LaneR_3 2_LaneMid_Dn_4 3_LaneMid_Dn_4 4_LaneMid_Dn_4 5_LaneL_3 4_LaneMid_Up_3"/>
+    </vehicle>
+    <vehicle id="8" type="evehicle" depart="8.00">
+        <route edges="2_LaneMid_Up_4 2_LaneL_3 2_LaneMid_Dn_3 3_LaneMid_Dn_3"/>
+    </vehicle>
+    <vehicle id="9" type="evehicle" depart="9.00">
+        <route edges="2_LaneMid_Up_5 2_LaneL_4 2_LaneL_3 2_LaneL_2 2_LaneL_1 2_LaneL_0 2_LaneMid_Dn_0 3_LaneMid_Dn_0"/>
+    </vehicle>
+    <vehicle id="10" type="evehicle" depart="10.00">
+        <route edges="0_LaneMid_Dn_0 1_LaneR_0 1_LaneR_1 1_LaneR_2 1_LaneR_3 1_LaneMid_Dn_4 2_LaneMid_Dn_4 3_LaneR_4 2_LaneMid_Up_5"/>
+    </vehicle>
+    <vehicle id="11" type="evehicle" depart="11.00">
+        <route edges="5_LaneR_2 4_LaneMid_Up_3 4_LaneL_2 4_LaneL_1 4_LaneMid_Dn_1"/>
+    </vehicle>
+    <vehicle id="12" type="evehicle" depart="12.00">
+        <route edges="1_LaneR_4 1_LaneMid_Dn_5 2_LaneL_4 2_LaneL_3 2_LaneL_2 2_LaneMid_Dn_2 3_LaneMid_Dn_2 4_LaneMid_Dn_2 5_LaneL_1"/>
+    </vehicle>
+    <vehicle id="13" type="evehicle" depart="13.00">
+        <route edges="5_LaneL_2 4_LaneMid_Up_2 4_LaneR_2 4_LaneR_3 3_LaneMid_Up_4 2_LaneMid_Up_4 1_LaneMid_Up_4 1_LaneL_3"/>
+    </vehicle>
+    <vehicle id="14" type="evehicle" depart="14.00">
+        <route edges="4_LaneMid_Dn_4 5_LaneL_3 4_LaneMid_Up_3 3_LaneMid_Up_3 3_LaneR_3"/>
+    </vehicle>
+    <vehicle id="15" type="evehicle" depart="15.00">
+        <route edges="1_LaneL_3 1_LaneMid_Dn_3 2_LaneR_3 2_LaneR_4"/>
+    </vehicle>
+    <vehicle id="16" type="evehicle" depart="16.00">
+        <route edges="1_LaneMid_Dn_2 2_LaneR_2 1_LaneMid_Up_3"/>
+    </vehicle>
+    <vehicle id="17" type="evehicle" depart="17.00">
+        <route edges="2_LaneMid_Up_1 2_LaneR_1 1_LaneMid_Up_2 0_LaneMid_Up_2 0_LaneR_2"/>
+    </vehicle>
+    <vehicle id="18" type="evehicle" depart="18.00">
+        <route edges="1_LaneMid_Dn_5 2_LaneL_4 2_LaneL_3 2_LaneMid_Dn_3 3_LaneMid_Dn_3 4_LaneMid_Dn_3 5_LaneL_2 4_LaneMid_Up_2"/>
+    </vehicle>
+    <vehicle id="19" type="evehicle" depart="19.00">
+        <route edges="3_LaneMid_Dn_2 4_LaneR_2 4_LaneR_3 4_LaneR_4 3_LaneMid_Up_5 2_LaneMid_Up_5 2_LaneL_4"/>
+    </vehicle>
+    <vehicle id="20" type="evehicle" depart="20.00">
+        <route edges="3_LaneL_3 2_LaneMid_Up_3 2_LaneR_3 2_LaneMid_Dn_4"/>
+    </vehicle>
+    <vehicle id="21" type="evehicle" depart="21.00">
+        <route edges="5_LaneR_4 4_LaneMid_Up_5 3_LaneMid_Up_5 3_LaneL_4 3_LaneL_3 3_LaneL_2 2_LaneMid_Up_2 2_LaneR_2"/>
+    </vehicle>
+    <vehicle id="22" type="evehicle" depart="22.00">
+        <route edges="1_LaneMid_Dn_1 2_LaneMid_Dn_1 3_LaneR_1 2_LaneMid_Up_2 2_LaneL_1 1_LaneMid_Up_1"/>
+    </vehicle>
+    <vehicle id="23" type="evehicle" depart="23.00">
+        <route edges="3_LaneMid_Dn_1 4_LaneR_1 3_LaneMid_Up_2 2_LaneMid_Up_2 2_LaneL_1 2_LaneMid_Dn_1"/>
+    </vehicle>
+    <vehicle id="24" type="evehicle" depart="24.00">
+        <route edges="3_LaneMid_Dn_2 4_LaneR_2 3_LaneMid_Up_3 3_LaneL_2 3_LaneL_1 3_LaneMid_Dn_1"/>
+    </vehicle>
+    <vehicle id="25" type="evehicle" depart="25.00">
+        <route edges="2_LaneMid_Up_0 2_LaneR_0 2_LaneR_1 2_LaneR_2 2_LaneMid_Dn_3 3_LaneL_2"/>
+    </vehicle>
+    <vehicle id="26" type="evehicle" depart="26.00">
+        <route edges="3_LaneMid_Dn_2 4_LaneL_1 3_LaneMid_Up_1 2_LaneMid_Up_1 1_LaneMid_Up_1 0_LaneMid_Up_1 0_LaneL_0"/>
+    </vehicle>
+    <vehicle id="27" type="evehicle" depart="27.00">
+        <route edges="0_LaneR_0 0_LaneR_1 0_LaneR_2 0_LaneR_3 0_LaneR_4 0_LaneMid_Dn_5 1_LaneMid_Dn_5"/>
+    </vehicle>
+    <vehicle id="28" type="evehicle" depart="28.00">
+        <route edges="1_LaneR_2 1_LaneR_3 1_LaneR_4 0_LaneMid_Up_5 0_LaneL_4"/>
+    </vehicle>
+    <vehicle id="29" type="evehicle" depart="29.00">
+        <route edges="5_LaneR_0 4_LaneMid_Up_1 3_LaneMid_Up_1 2_LaneMid_Up_1 1_LaneMid_Up_1 1_LaneL_0"/>
+    </vehicle>
+    <vehicle id="30" type="evehicle" depart="30.00">
+        <route edges="3_LaneMid_Up_3 3_LaneL_2 3_LaneMid_Dn_2 4_LaneMid_Dn_2"/>
+    </vehicle>
+    <vehicle id="31" type="evehicle" depart="31.00">
+        <route edges="4_LaneL_1 3_LaneMid_Up_1 3_LaneR_1 3_LaneR_2 3_LaneMid_Dn_3 4_LaneL_2"/>
+    </vehicle>
+    <vehicle id="32" type="evehicle" depart="32.00">
+        <route edges="0_LaneMid_Dn_0 1_LaneR_0 1_LaneR_1 1_LaneR_2 1_LaneR_3 1_LaneR_4 1_LaneMid_Dn_5 2_LaneMid_Dn_5 3_LaneMid_Dn_5 -gneE284 5_LaneL_4"/>
+    </vehicle>
+    <vehicle id="33" type="evehicle" depart="33.00">
+        <route edges="0_LaneL_1 0_LaneMid_Dn_1 1_LaneR_1 0_LaneMid_Up_2"/>
+    </vehicle>
+    <vehicle id="34" type="evehicle" depart="34.00">
+        <route edges="0_LaneMid_Up_4 0_LaneL_3 0_LaneL_2 0_LaneMid_Dn_2 1_LaneMid_Dn_2 2_LaneMid_Dn_2 3_LaneMid_Dn_2"/>
+    </vehicle>
+    <vehicle id="35" type="evehicle" depart="35.00">
+        <route edges="2_LaneMid_Up_1 2_LaneR_1 2_LaneR_2 2_LaneMid_Dn_3 3_LaneMid_Dn_3 4_LaneL_2 3_LaneMid_Up_2"/>
+    </vehicle>
+    <vehicle id="36" type="evehicle" depart="36.00">
+        <route edges="3_LaneR_1 3_LaneR_2 3_LaneR_3 2_LaneMid_Up_4 1_LaneMid_Up_4"/>
+    </vehicle>
+    <vehicle id="37" type="evehicle" depart="37.00">
+        <route edges="0_LaneL_4 0_LaneMid_Dn_4 1_LaneMid_Dn_4 2_LaneL_3"/>
+    </vehicle>
+    <vehicle id="38" type="evehicle" depart="38.00">
+        <route edges="1_LaneMid_Up_2 1_LaneR_2 1_LaneR_3 1_LaneMid_Dn_4 2_LaneR_4 1_LaneMid_Up_5"/>
+    </vehicle>
+    <vehicle id="39" type="evehicle" depart="39.00">
+        <route edges="3_LaneMid_Dn_4 4_LaneL_3 4_LaneL_2 4_LaneL_1 4_LaneMid_Dn_1 5_LaneR_1"/>
+    </vehicle>
+    <vehicle id="40" type="evehicle" depart="40.00">
+        <route edges="1_LaneMid_Dn_2 2_LaneR_2 2_LaneR_3 1_LaneMid_Up_4 1_LaneR_4 1_LaneMid_Dn_5 2_LaneL_4"/>
+    </vehicle>
+    <vehicle id="41" type="evehicle" depart="41.00">
+        <route edges="1_LaneMid_Dn_4 2_LaneL_3 2_LaneMid_Dn_3"/>
+    </vehicle>
+    <vehicle id="42" type="evehicle" depart="42.00">
+        <route edges="2_LaneMid_Up_3 2_LaneR_3 2_LaneMid_Dn_4 3_LaneMid_Dn_4 4_LaneMid_Dn_4"/>
+    </vehicle>
+    <vehicle id="43" type="evehicle" depart="43.00">
+        <route edges="0_LaneL_4 0_LaneL_3 0_LaneL_2 0_LaneL_1 0_LaneMid_Dn_1 1_LaneMid_Dn_1 2_LaneMid_Dn_1 3_LaneMid_Dn_1 4_LaneMid_Dn_1 5_LaneL_0"/>
+    </vehicle>
+    <vehicle id="44" type="evehicle" depart="44.00">
+        <route edges="4_LaneR_4 -gneE284 5_LaneL_4 5_LaneL_3 5_LaneL_2"/>
+    </vehicle>
+    <vehicle id="45" type="evehicle" depart="45.00">
+        <route edges="2_LaneMid_Up_2 2_LaneL_1 2_LaneL_0 2_LaneMid_Dn_0 3_LaneMid_Dn_0 4_LaneR_0"/>
+    </vehicle>
+    <vehicle id="46" type="evehicle" depart="46.00">
+        <route edges="3_LaneL_4 3_LaneL_3 3_LaneL_2 3_LaneMid_Dn_2 4_LaneMid_Dn_2 5_LaneL_1 4_LaneMid_Up_1"/>
+    </vehicle>
+    <vehicle id="47" type="evehicle" depart="47.00">
+        <route edges="2_LaneMid_Up_3 2_LaneR_3 1_LaneMid_Up_4 1_LaneR_4 1_LaneMid_Dn_5"/>
+    </vehicle>
+    <vehicle id="48" type="evehicle" depart="48.00">
+        <route edges="3_LaneR_3 2_LaneMid_Up_4 1_LaneMid_Up_4 1_LaneL_3 1_LaneL_2 1_LaneL_1 1_LaneL_0"/>
+    </vehicle>
+    <vehicle id="49" type="evehicle" depart="49.00">
+        <route edges="3_LaneMid_Dn_2 4_LaneR_2 3_LaneMid_Up_3 3_LaneL_2 3_LaneL_1 3_LaneMid_Dn_1"/>
+    </vehicle>
+    <vehicle id="50" type="evehicle" depart="50.00">
+        <route edges="2_LaneMid_Dn_5 3_LaneL_4 3_LaneMid_Dn_4 4_LaneR_4 3_LaneMid_Up_5"/>
+    </vehicle>
+    <vehicle id="51" type="evehicle" depart="51.00">
+        <route edges="2_LaneMid_Up_4 2_LaneL_3 2_LaneL_2 2_LaneL_1 2_LaneMid_Dn_1 3_LaneMid_Dn_1 4_LaneMid_Dn_1 5_LaneR_1"/>
+    </vehicle>
+    <vehicle id="52" type="evehicle" depart="52.00">
+        <route edges="3_LaneL_0 2_LaneMid_Up_0 2_LaneR_0 1_LaneMid_Up_1 1_LaneL_0 1_LaneMid_Dn_0 2_LaneMid_Dn_0 3_LaneR_0"/>
+    </vehicle>
+    <vehicle id="53" type="evehicle" depart="53.00">
+        <route edges="2_LaneR_2 2_LaneR_3 1_LaneMid_Up_4 1_LaneL_3 1_LaneMid_Dn_3 2_LaneL_2"/>
+    </vehicle>
+    <vehicle id="54" type="evehicle" depart="54.00">
+        <route edges="3_LaneMid_Dn_2 4_LaneR_2 3_LaneMid_Up_3 3_LaneL_2 3_LaneL_1 3_LaneMid_Dn_1"/>
+    </vehicle>
+    <vehicle id="55" type="evehicle" depart="55.00">
+        <route edges="0_LaneMid_Up_5 0_LaneL_4 0_LaneL_3 0_LaneMid_Dn_3 1_LaneMid_Dn_3 2_LaneL_2"/>
+    </vehicle>
+    <vehicle id="56" type="evehicle" depart="56.00">
+        <route edges="3_LaneL_1 2_LaneMid_Up_1 1_LaneMid_Up_1 1_LaneR_1"/>
+    </vehicle>
+    <vehicle id="57" type="evehicle" depart="57.00">
+        <route edges="1_LaneMid_Up_1 1_LaneR_1 1_LaneMid_Dn_2 2_LaneL_1 2_LaneL_0"/>
+    </vehicle>
+    <vehicle id="58" type="evehicle" depart="58.00">
+        <route edges="4_LaneL_2 4_LaneL_1 4_LaneL_0 4_LaneMid_Dn_0 5_LaneR_0"/>
+    </vehicle>
+    <vehicle id="59" type="evehicle" depart="59.00">
+        <route edges="0_LaneL_3 0_LaneL_2 0_LaneMid_Dn_2 1_LaneMid_Dn_2 2_LaneMid_Dn_2 3_LaneMid_Dn_2 4_LaneL_1 3_LaneMid_Up_1"/>
+    </vehicle>
+    <vehicle id="60" type="evehicle" depart="60.00">
+        <route edges="2_LaneMid_Up_2 2_LaneR_2 2_LaneMid_Dn_3 3_LaneL_2 3_LaneMid_Dn_2 4_LaneR_2"/>
+    </vehicle>
+    <vehicle id="61" type="evehicle" depart="61.00">
+        <route edges="0_LaneR_4 0_LaneMid_Dn_5 1_LaneL_4 1_LaneL_3 1_LaneMid_Dn_3 2_LaneMid_Dn_3 3_LaneL_2"/>
+    </vehicle>
+    <vehicle id="62" type="evehicle" depart="62.00">
+        <route edges="1_LaneR_3 1_LaneMid_Dn_4 2_LaneL_3 2_LaneL_2 2_LaneMid_Dn_2 3_LaneMid_Dn_2 4_LaneMid_Dn_2 5_LaneL_1 4_LaneMid_Up_1"/>
+    </vehicle>
+    <vehicle id="63" type="evehicle" depart="63.00">
+        <route edges="2_LaneMid_Up_3 2_LaneR_3 2_LaneMid_Dn_4 3_LaneMid_Dn_4 4_LaneMid_Dn_4 5_LaneR_4"/>
+    </vehicle>
+    <vehicle id="64" type="evehicle" depart="64.00">
+        <route edges="0_LaneMid_Up_3 0_LaneL_2 0_LaneMid_Dn_2"/>
+    </vehicle>
+    <vehicle id="65" type="evehicle" depart="65.00">
+        <route edges="1_LaneMid_Up_5 1_LaneL_4 1_LaneMid_Dn_4 2_LaneMid_Dn_4 3_LaneMid_Dn_4"/>
+    </vehicle>
+    <vehicle id="66" type="evehicle" depart="66.00">
+        <route edges="4_LaneMid_Dn_1 5_LaneR_1 5_LaneR_2 5_LaneR_3 4_LaneMid_Up_4 3_LaneMid_Up_4 2_LaneMid_Up_4 1_LaneMid_Up_4 0_LaneMid_Up_4"/>
+    </vehicle>
+    <vehicle id="67" type="evehicle" depart="67.00">
+        <route edges="0_LaneMid_Dn_5 1_LaneL_4 1_LaneMid_Dn_4 2_LaneR_4 1_LaneMid_Up_5"/>
+    </vehicle>
+    <vehicle id="68" type="evehicle" depart="68.00">
+        <route edges="csLane_3 0_LaneL_4 0_LaneL_3 0_LaneMid_Dn_3 1_LaneMid_Dn_3 2_LaneMid_Dn_3 3_LaneMid_Dn_3 4_LaneR_3"/>
+    </vehicle>
+    <vehicle id="69" type="evehicle" depart="69.00">
+        <route edges="csLane_1 0_LaneR_0 0_LaneR_1 0_LaneR_2 0_LaneMid_Dn_3 1_LaneMid_Dn_3 2_LaneMid_Dn_3"/>
+    </vehicle>
+    <vehicle id="70" type="evehicle" depart="70.00">
+        <route edges="0_LaneMid_Up_1 0_LaneR_1 0_LaneMid_Dn_2 1_LaneL_1 1_LaneL_0 1_LaneMid_Dn_0 2_LaneMid_Dn_0"/>
+    </vehicle>
+    <vehicle id="71" type="evehicle" depart="71.00">
+        <route edges="4_LaneMid_Up_5 4_LaneL_4 4_LaneL_3 4_LaneL_2 4_LaneL_1 3_LaneMid_Up_1 3_LaneR_1"/>
+    </vehicle>
+    <vehicle id="72" type="evehicle" depart="72.00">
+        <route edges="4_LaneR_4 -gneE284 5_LaneL_4 5_LaneL_3 5_LaneL_2 5_LaneL_1 4_LaneMid_Up_1"/>
+    </vehicle>
+    <vehicle id="73" type="evehicle" depart="73.00">
+        <route edges="0_LaneR_2 0_LaneMid_Dn_3 1_LaneL_2 0_LaneMid_Up_2 0_LaneL_1 0_LaneMid_Dn_1 1_LaneR_1"/>
+    </vehicle>
+    <vehicle id="74" type="evehicle" depart="74.00">
+        <route edges="3_LaneMid_Up_1 3_LaneR_1 3_LaneR_2 3_LaneR_3 3_LaneR_4 2_LaneMid_Up_5 1_LaneMid_Up_5 1_LaneL_4"/>
+    </vehicle>
+    <vehicle id="75" type="evehicle" depart="75.00">
+        <route edges="5_LaneL_0 csLane_6 csLane_7 5_LaneR_0"/>
+    </vehicle>
+    <vehicle id="76" type="evehicle" depart="76.00">
+        <route edges="5_LaneL_4 4_LaneMid_Up_4 3_LaneMid_Up_4 2_LaneMid_Up_4 1_LaneMid_Up_4 0_LaneMid_Up_4 0_LaneL_3 0_LaneL_2"/>
+    </vehicle>
+    <vehicle id="77" type="evehicle" depart="77.00">
+        <route edges="0_LaneMid_Up_1 0_LaneR_1 0_LaneR_2 0_LaneR_3 0_LaneR_4 0_LaneMid_Dn_5 1_LaneMid_Dn_5 2_LaneMid_Dn_5 3_LaneL_4"/>
+    </vehicle>
+    <vehicle id="78" type="evehicle" depart="78.00">
+        <route edges="2_LaneL_2 1_LaneMid_Up_2 1_LaneR_2 1_LaneR_3 1_LaneR_4 0_LaneMid_Up_5"/>
+    </vehicle>
+    <vehicle id="79" type="evehicle" depart="79.00">
+        <route edges="csLane_7 5_LaneR_0 4_LaneMid_Up_1 3_LaneMid_Up_1 2_LaneMid_Up_1 1_LaneMid_Up_1 1_LaneR_1 1_LaneMid_Dn_2"/>
+    </vehicle>
+    <vehicle id="80" type="evehicle" depart="80.00">
+        <route edges="4_LaneMid_Up_4 3_LaneMid_Up_4 2_LaneMid_Up_4 2_LaneL_3 1_LaneMid_Up_3"/>
+    </vehicle>
+    <vehicle id="81" type="evehicle" depart="81.00">
+        <route edges="0_LaneMid_Dn_2 1_LaneR_2 1_LaneMid_Dn_3 2_LaneMid_Dn_3 3_LaneMid_Dn_3 4_LaneMid_Dn_3 5_LaneL_2 4_LaneMid_Up_2"/>
+    </vehicle>
+    <vehicle id="82" type="evehicle" depart="82.00">
+        <route edges="0_LaneL_3 0_LaneMid_Dn_3 1_LaneL_2 0_LaneMid_Up_2 0_LaneR_2"/>
+    </vehicle>
+    <vehicle id="83" type="evehicle" depart="83.00">
+        <route edges="2_LaneL_1 2_LaneMid_Dn_1 3_LaneL_0 2_LaneMid_Up_0"/>
+    </vehicle>
+    <vehicle id="84" type="evehicle" depart="84.00">
+        <route edges="1_LaneMid_Dn_5 2_LaneL_4 1_LaneMid_Up_4 1_LaneL_3 1_LaneL_2 1_LaneL_1"/>
+    </vehicle>
+    <vehicle id="85" type="evehicle" depart="85.00">
+        <route edges="3_LaneMid_Up_2 2_LaneMid_Up_2 2_LaneL_1 2_LaneMid_Dn_1 3_LaneR_1"/>
+    </vehicle>
+    <vehicle id="86" type="evehicle" depart="86.00">
+        <route edges="1_LaneMid_Dn_5 2_LaneL_4 1_LaneMid_Up_4 0_LaneMid_Up_4 0_LaneL_3 0_LaneL_2 0_LaneMid_Dn_2"/>
+    </vehicle>
+    <vehicle id="87" type="evehicle" depart="87.00">
+        <route edges="1_LaneL_1 1_LaneMid_Dn_1 2_LaneR_1 2_LaneR_2 2_LaneR_3 2_LaneR_4 1_LaneMid_Up_5 0_LaneMid_Up_5 0_LaneL_4"/>
+    </vehicle>
+    <vehicle id="88" type="evehicle" depart="88.00">
+        <route edges="3_LaneL_3 2_LaneMid_Up_3 2_LaneL_2 2_LaneMid_Dn_2 3_LaneR_2"/>
+    </vehicle>
+    <vehicle id="89" type="evehicle" depart="89.00">
+        <route edges="2_LaneL_3 1_LaneMid_Up_3 0_LaneMid_Up_3"/>
+    </vehicle>
+    <vehicle id="90" type="evehicle" depart="90.00">
+        <route edges="1_LaneMid_Up_0 1_LaneR_0 1_LaneR_1 1_LaneR_2 1_LaneR_3 1_LaneMid_Dn_4 2_LaneMid_Dn_4 3_LaneMid_Dn_4 4_LaneR_4 3_LaneMid_Up_5"/>
+    </vehicle>
+    <vehicle id="91" type="evehicle" depart="91.00">
+        <route edges="1_LaneL_3 0_LaneMid_Up_3 0_LaneR_3 0_LaneMid_Dn_4 1_LaneR_4"/>
+    </vehicle>
+    <vehicle id="92" type="evehicle" depart="92.00">
+        <route edges="0_LaneL_0 0_LaneMid_Dn_0 1_LaneR_0 1_LaneR_1 1_LaneR_2 1_LaneR_3 1_LaneR_4 0_LaneMid_Up_5 0_LaneL_4"/>
+    </vehicle>
+    <vehicle id="93" type="evehicle" depart="93.00">
+        <route edges="1_LaneMid_Dn_5 2_LaneL_4 1_LaneMid_Up_4 0_LaneMid_Up_4 0_LaneL_3 0_LaneL_2 0_LaneMid_Dn_2"/>
+    </vehicle>
+    <vehicle id="94" type="evehicle" depart="94.00">
+        <route edges="1_LaneMid_Up_0 1_LaneR_0 1_LaneR_1 1_LaneR_2 1_LaneR_3 1_LaneMid_Dn_4 2_LaneMid_Dn_4 3_LaneMid_Dn_4 4_LaneR_4"/>
+    </vehicle>
+    <vehicle id="95" type="evehicle" depart="95.00">
+        <route edges="3_LaneMid_Up_0 3_LaneR_0 3_LaneR_1 3_LaneR_2 3_LaneR_3 3_LaneR_4 2_LaneMid_Up_5 1_LaneMid_Up_5 1_LaneL_4"/>
+    </vehicle>
+    <vehicle id="96" type="evehicle" depart="96.00">
+        <route edges="3_LaneMid_Dn_4 4_LaneL_3 3_LaneMid_Up_3 2_LaneMid_Up_3 1_LaneMid_Up_3 0_LaneMid_Up_3 0_LaneL_2"/>
+    </vehicle>
+    <vehicle id="97" type="evehicle" depart="97.00">
+        <route edges="2_LaneMid_Dn_3 3_LaneL_2 2_LaneMid_Up_2 1_LaneMid_Up_2 0_LaneMid_Up_2 0_LaneR_2"/>
+    </vehicle>
+    <vehicle id="98" type="evehicle" depart="98.00">
+        <route edges="0_LaneL_0 0_LaneMid_Dn_0 1_LaneR_0 1_LaneR_1 1_LaneR_2 0_LaneMid_Up_3 0_LaneR_3"/>
+    </vehicle>
+    <vehicle id="99" type="evehicle" depart="99.00">
+        <route edges="1_LaneMid_Up_2 1_LaneR_2 1_LaneMid_Dn_3 2_LaneL_2 2_LaneL_1 1_LaneMid_Up_1"/>
+    </vehicle>
+    <vehicle id="100" type="evehicle" depart="100.00">
+        <route edges="csLane_0 csLane_1 0_LaneMid_Dn_0 1_LaneR_0  0_LaneMid_Up_1 "/>
+    </vehicle>
+</routes>
